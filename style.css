@@ -5,4 +5,27 @@
 }
 :root {
     font-size: 62.5%;
+
+    --primary-color: #014d4e;
+    --secondary-color: #ff9408;
+    --secondary-color-m: #ff94088e;
+    --tertiary-color: #017374;
+    --tertiary-color-m: #01737498;
+}
+body {
+    font-family: "Baloo Tamma 2";
+    line-height: 1.8;
+    display: flex;
+}
+
+aside #side-nav {
+position: sticky;
+top: 0;
+left: 0;
+height: 100vh;
+}
+div.side-nav__content {
+    height: 100%;
+    display: flex;
+   
 }
